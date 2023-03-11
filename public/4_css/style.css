@@ -119,7 +119,8 @@ body::-webkit-scrollbar{
 
 #main-nav ul {
     margin-bottom: 0!important;
-    padding-left: 1rem!important;
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
 }
 
 
