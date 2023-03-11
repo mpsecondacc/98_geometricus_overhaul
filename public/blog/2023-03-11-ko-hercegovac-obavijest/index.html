@@ -38,6 +38,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css"/>
 
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 <title>Geometricus d.o.o - geodetske usluge</title>
 </head>
 <body style="scroll-behavior: smooth;">
@@ -205,7 +207,17 @@
 
     </main>
 
-
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 </body>
 </html>
