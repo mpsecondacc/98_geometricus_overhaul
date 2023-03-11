@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--metaTags-->
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Geodetske usluge - projektiranje, nadzor, izrada geodetskih elaborata, 3D lasersko skeniranje, LiDAR, fotogrametrija, hidrografija, lociranje podzemnih vodova, GIS, geoinformatika. Geodet - Požega, Zagreb.">
+    <!--cssDirectories-->
+    <link rel="stylesheet" href="./4_css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./4_css/mobile.css/">
+    <!--scrollReveal-->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        ScrollReveal({ duration: 1000 })
+    </script>
+    <!--fontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--faviconIcon-->
+    <link rel="shortcut icon" href="/5_misc/favicon.ico" type="image/x-icon">
+    <!--googleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--bootstrapCssCDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <!--leafletCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+
+    <!--lightboxCDN!-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css"/>
+
+<title>Geometricus d.o.o - geodetske usluge</title>
+</head>
+<body style="scroll-behavior: smooth;">
+
+    <main>
+
+    
+<nav id="main-nav">
+    <div class="container bg-white d-flex align-items-center justify-content-center">
+        <div class="empty-sumtin">
+        <a href="/"><img class="geometricus-img" src="/1_content/1_img/MEMO ime.webp" alt="Geometricus logo"  ></a>
+        <a  href="https://eeagrants.org/archive/2014-2021/projects/HR-INNOVATION-0025"><img class="norway-img2" src="/1_content/1_img/norway.webp" alt=""></a>
+    </div>
+    <span>
+    <ul class="d-flex align-items-center justify-content-center">
+        <li class="text-nowrap ml-3 mr-2">Usluge <i class="fas fa-angle-down"></i>
+            <ul>
+                <li><a href="/2_html/katastarske-usluge">Katastarske usluge</a></li>
+                <li><a href="/2_html/inzenjerska-geodezija">Inženjerska geodezija</a></li>
+                <li><a href="/2_html/LIDAR">LiDAR</a></li>
+                <li><a href="/2_html/fotogrametrija">Fotogrametrija</a></li>
+                <li><a href="/2_html/hidrografija">Hidrografija</a></li>
+                <li><a href="/2_html/geoinformatika">Geoinformatika</a></li>
+            </ul>
+        </li>
+            <ul class="">
+                <li class="text-nowrap mr-2"><a href="">Projekti </a><i class="fas fa-angle-down"></i>
+                <ul class="p-0">
+                    <li class="p-0"><a href="https://eeagrants.org/archive/2014-2021/projects/HR-INNOVATION-0025" target="_blank">HydroGraphBoost</a></li>
+                    <li><a href="">KK.08.2.1.16.0149</a></li>
+                </ul>
+                </li>
+            </ul>
+        <li class="text-nowrap ml-3 mr-2"><a href="/blog">Novosti</a></li>
+        <li class="ml-2 mr-2"><a href="/2_html/kontakt">Kontakt</a></li>
+        <div class="languages d-flex btn-alpha ml-4 ">
+            <li class="text-center m-2"><a href="/2_html/kontakt">HR <img src="/1_content/1_img/index_pics/croatia.png" alt="" class="" width="25px!important" height="25px"></a></li>
+            
+            <li class="text-center m-2"><a href="/2_html/kontak">ENG <img src="/1_content/1_img/index_pics/uk.png" alt="" class="" width="25px" height="25px"></a></li>
+        </div>
+        
+        
+    </ul>
+    </span>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul class="text-bold" >
+                <li><a href="/2_html/katastarske-usluge">KATASTARSKE USLUGE</a></li>
+                <li><a href="/2_html/inzenjerska-geodezija">INŽENJERSKA GEODEZIJA</a></li>
+                <li><a href="/2_html/LIDAR">LiDAR</a></li>
+                <li><a href="/2_html/fotogrametrija">FOTOGRAMETRIJA</a></li>
+                <li><a href="/2_html/hidrografija">HIDROGRAFIJA</a></li>
+                
+                <li><a href="geoinformatika">GEOINFORMATIKA</a></li>
+                <li class="strikethrough"></li>
+                <li class="strikethrough"></li>
+                <li><a href="/2_html/o-nama" style="color: var(--darkishlightcolor)!important;">O NAMA</a></li>
+                <li><a href="/2_html/kontakt" style="color: var(--darkishlightcolor)!important;" class="text-muted">KONTAKT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+</nav>
+    
+
+    
+
+
+<section id="katastarske-usluge">
+    
+    
+        <div class="header-type container2">
+            <div class="dark-overlay d-flex justify-content-center align-items-center">
+                <h1 class="ay0-1">Katastarske usluge</h1>
+            </div>
+        </div>    
+        <div class="container p-1 bg-white">
+        <div class="katastarske-usluge-intro mt-5 ">
+            <h1 class="ay0-2 text-center-on-small-screens">Katastar i zemljišna knjiga</h1>
+            <p class="ay0-2 text-center-on-small-screens">Katastarski operat evidencija je o česticama zemljine površine, zgradama i drugim građevinama koje trajno leže na zemljinoj površini ili ispod nje te o posebnim pravnim režimima na zemljinoj površini, ako zakonom nije drukčije određeno. </p>
+
+               <p class="ay0-2 text-center-on-small-screens"> Osnovna prostorna jedinica katastarskog operata je katastarska čestica. </p>
+                
+               <p class="ay0-2 text-center-on-small-screens"> O pravnom stanju nekretnina na području Republike Hrvatske, mjerodavnom za pravni promet, vode se zemljišne knjige (gruntovnice), ako za neka zemljišta nije što posebno određeno. U zemljišne knjige upisuju se stvarna prava na zemljištima, a i druga prava za koja je to posebnim zakonima određeno (npr. hipoteka, prava služnosti, ...).  </p>
+                
+               <p class="ay0-2 text-center-on-small-screens"> Zemljišne knjige vodi općinski sud kao sud prvog stupnja (zemljišnoknjižni sud).</p>
+                
+               <p class="ay0-2 text-center-on-small-screens"> Nositelji prava na nekretninama dužni su u roku od 30 dana od dana nastale promjene prijaviti nadležnome područnom uredu za katastar, odnosno uredu Grada Zagreba, svaku promjenu na nekretninama koja utječe na podatke upisane u katastar nekretnina.</p>
+        
+        
+        </div>
+        <div class="geodetski-elaborat-flex py-1 ">
+            <h1 class="ay0-3 text-center-on-small-screens" data-bs-toggle="collapse" href="#GE" role="button" aria-expanded="false" aria-controls="#GE">Geodetski elaborat</h1>
+            <div class="geodetski-elaborat collapse show" id="GE">
+            
+            <h4 class="ay0-3 text-center-on-small-screens" >Odgovarajući geodetski elaborat je tehnička osnova za provedbu promjena nastalih na nekretninama.</h4>
+            <p class="ay0-3 text-center-on-small-screens">S obzirom na promjene nastale na nekretnini (katastarskoj čestici) geodetski elaborati mogu biti izrađeni u svrhu:</p>
+            
+            <ul>
+                <li class="ay0-4">diobe ili spajanja katastarskih čestica - parcelacijski elaborat</li>
+                <li class="ay0-4">provedbe lokacijske dozvole</li>
+                <li class="ay0-4">provedbe rješenja o utvrđivanju građevne čestice</li>
+                <li class="ay0-4">provedbe građevinske dozvole, odnosno drugog akta na temelju kojega je izgrađena građevina</li>
+                <li class="ay0-4">provedbe urbanističkog plana uređenja ili prostornih planova područja posebnih obilježja</li>
+                <li class="ay0-4">evidentiranja pomorskog ili vodnog dobra</li>
+                <li class="ay0-4">spajanja cijelih katastarskih čestica na kojima je izgrađena postojeća zgrada</li>
+                <li class="ay0-4">evidentiranja, brisanja ili promjene podataka o zgradama ili drugim građevinama</li>
+                <li class="ay0-4">evidentiranja ili promjene podataka o načinu uporabe katastarskih čestica</li>
+                <li class="ay0-4">evidentiranja stvarnog položaja pojedinačnih već evidentiranih katastarskih čestica</li>
+                <li class="ay0-4">provedbe u zemljišnoj knjizi</li>
+                <li class="ay0-4">evidentiranja izvedenog stanja ceste</li>
+                <li class="ay0-4">...</li>
+            </ul>
+            </div>
+            
+        </div>
+        <section id="gallery-GE" class="py-1 ay1">
+            <div class="container ">
+                <div class="row mb-5 ">
+                    <div class="col-md-12 d-flex flex-row justify-content-center">
+                        <div class="row d-flex justify-content-center align-items-center mb-3">
+                            <a href="/1_content/1_img/katastarske-usluge/k1-big.webp" alt="katastar hr, hr katastar, zemljišna knjiga" data-max-width="1000" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4 col-sm-12 my-2">
+                                <img src="/1_content/1_img/katastarske-usluge/k1-small.webp" alt="katastar hr, hr katastar, zemljišna knjiga" class="img-fluid" style="width: fit-content;">
+                            </a>
+                            <a href="/1_content/1_img/katastarske-usluge/k2-big.webp" alt="katastar hr, hr katastar, zemljišna knjiga" data-max-width="1000" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4 col-sm-12 my-2">
+                                <img src="/1_content/1_img/katastarske-usluge/k2-small.webp" alt="katastar hr, hr katastar, zemljišna knjiga" class="img-fluid" style="width: fit-content;">
+                            </a>
+                            <a href="/1_content/1_img/katastarske-usluge/k3.webp" alt="katastar hr, hr katastar, zemljišna knjiga" data-max-width="1000" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4 col-sm-12 my-2">
+                                <img src="/1_content/1_img/katastarske-usluge/k3.webp" alt="katastar hr, hr katastar, zemljišna knjiga" class="img-fluid" style="width: fit-content;">
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="accordion">
+
+
+   
+
+            <!--1-->
+            <div class="card ">
+              <div class="card-header " id="headingOne">
+                
+                  <h3 style="cursor:pointer" class="ay2" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fa-solid fa-xs fa-arrow-turn-down"></i> Parcelacijski elaborat
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body ">
+                    <p>Parcelacijski elaborat je dokument izrađen i ovjeren od strane ovlaštenog geodetskog izvoditelja čija je svrha provođenje promjena na nekretninama (parcelacije ili spajanja) u katastru, odnosno zemljišnoj knjizi. Parcelacija je postupak osnivanja novih katastarskih čestica spajanjem ili diobom postojećih. Može se raditi na građevinskom i poljoprivrednom zemljištu.</p>
+                    <p>Parcelacijski elaborat može bit izrađen u svrhu:</p>
+                    <ul>
+                        <li>diobe ili spajanja katastarskih čestica i</li>
+                        <li>provedbe dokumenata ili akata prostornog uređenja</li>
+                    </ul>
+            
+                    
+
+                    <section id="gallery-PE" class="py-1">
+                        <div class="container ">
+                            <div class="row ">
+                                <div class="col-md-12 d-flex flex-row justify-content-center">
+                                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                                        <a href="/1_content/1_img/katastarske-usluge/c1.webp" alt="katastar hr, hr katastar, zemljišna knjiga" data-max-width="1000" data-toggle="lightbox" data-gallery="example-gallery2" class="col-md-4 col-sm-12">
+                                            <img src="/1_content/1_img/katastarske-usluge/c1.webp" alt="katastar hr, hr katastar, zemljišna knjiga" class="img-fluid" style="width: fit-content;">
+                                        </a>
+                                        <a href="/1_content/1_img/katastarske-usluge/c2.webp" data-max-width="1000" data-toggle="lightbox" data-gallery="example-gallery2" class="col-md-4 col-sm-12">
+                                            <img src="/1_content/1_img/katastarske-usluge/c2.webp" alt="katastar hr, hr katastar, zemljišna knjiga" class="img-fluid" style="width: fit-content;">
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <h3>Parcelacija (neizgrađenog) građevinskog zemljišta</h3>
+                    <p>Parcelacija izgrađenog građevinskog zemljišta i građevinskog zemljišta izvan građevinskog područja može se provoditi samo u skladu s aktima i planovima prostornog uređenja.</p>
+                    <p>Parcelacija izgrađenog građevinskog zemljišta može se i provoditi u svrhu spajanja cijelih katastarskih čestica na kojima je izgrađena postojeća zgrada.</p>
+            
+                    <h3>Parcelacija poljoprivrednog zemljišta</h3>
+                    <p>Parcelacija zemljišta koja su izvan granica građevinskog područja i zemljišta koja nisu građevinska obavezno sadrži odgovarajući akt tijela nadležnog za prostorno uređenje da se njime parcelira zemljište koje je izvan granica građevinskog područja.</p>
+                    <p>Parcelacija zemljišta izvan granica građevinskog područja radi povećanja građevne čestice unutar granice građevnog područja nije dopuštena.</p>
+
+
+                </div>
+              </div>
+            </div>
+
+
+            <!--2-->
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                
+                  <h3 class="ay2" style="cursor:pointer" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <i class="fa-solid fa-xs fa-arrow-turn-down"></i> Upis objekata u katastar i zemljišnu knjigu
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Upis objekta (građevine) u katastar i zemljišnu knjigu je postupak kojim se objekti (zgrade i druge građevine) evidentiraju u katastru i zemljišnoj knjizi.</p>
+                    <p>Nositelj prava na nekretninama dužan je u roku od 90 dana od dana nastale promjene prijaviti nadležnom područnom uredu za katastar odnosno uredu Grada Zagreba svaku promjenu na nekretninama koja utječe na podatke upisane u katastarski operat. Tehnička osnova za provođenje promjena u katastarskom operatu je odgovarajući geodetski elaborat.</p>
+                    <p>Geodetske elaborate izrađuju osobe koje ima suglasnost za obavljanje stručnih geodetskih poslova za potrebe održavanja katastra nekretnina a sukladno posebnom zakonu, a na zahtjev nositelja prava na nekretninama, odnosno osoba koje imaju pravnu interes na predmoj katastarskoj čestici (nekretnini).</p>
+                    <p><u> Evidentiranje građevine u katastru i zemljišnoj knjizi (gruntovnici) prema važećem Zakonu o gradnji (NN 153/13, 20/17, 39/19): </u></p>
+                    <p class="p-3">Za građevinu izgrađenu na temelju građevinske dozvole ili drugog odgovarajućeg akta za građenje nadležnog tijela izdane do 1. listopada 2007. tijelo graditeljstva može na zahtjev stranke, umjesto uporabne dozvole, izdati uporabnu dozvolu za građevinu izgrađenu na temelju akta za građenje izdanog do 1. listopada 2007.
+                        <br>
+                        <b> Katastarski ured evidentira građevinu u katastru ako je za tu građevinu izdana uporabna dozvola. </b>
+                        <br>
+                        Katastarski ured, za potrebe upisa građevine u zemljišnu knjigu, nadležnom sudu dostavlja obavijest da je za evidentiranje građevine u katastru priložena uporabna dozvola izdana od tijela za graditeljstvo koji katastarskom uredu dostavlja izvršnu uporabnu dozvolute geodetski snimak, geodetski elaborat i/ili drugi akt.
+                        
+                        Nadležni sud prilikom upisa građevine u zemljišnu knjigu u posjedovnici zemljišne knjige stavlja zabilježbu da je za evidentiranje građevine u katastru priložena uporabna dozvola ili da ista nije priložena.
+                        
+                        Zabilježba se po službenoj dužnosti briše onda kad se priloži građevinska i/ili uporavna dozvola.
+                        
+                        Gore navedena zabilježba nije dokaz o zakonitosti (legalnosti) građevine već je dokaz o evidentiranju ili ne evidentiranju isprave.</p>
+                    <p><i> Postupci započeti po odredbama Zakona o prostornom uređenju i gradnji do stupanja na snagu Zakona o gradnji (1. siječnja 2014. godine) koji se odnose na gradnju i donošenje rješenja za obavljanje djelatnosti prema posebnom zakonu, na evidentiranje građevina u katastru i zemljišnim knjigama te na stavljanje zabilježbi u zemljišnoj knjizi dovršit će se po odredbama Zakona o prostornom uređenju i gradnji i propisa donesenih na temelju tog Zakona. </i></p>
+        
+                     
+
+                     <section id="gallery-upis" class="py-1">
+                        <div class="container ">
+                            <div class="row ">
+                                <div class="col-md-12 d-flex flex-row justify-content-center">
+                                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                                        <a href="/1_content/1_img/katastarske-usluge/d3.webp" alt="katastar hr, hr katastar, zemljišna knjiga" data-max-width="1000" data-toggle="lightbox" data-gallery="example-gallery3" class="col-md-4 col-sm-12">
+                                            <img src="/1_content/1_img/katastarske-usluge/d3.webp" alt="katastar hr, hr katastar, zemljišna knjiga" class="img-fluid" style="width: fit-content;">
+                                        </a>
+                                        <a href="/1_content/1_img/katastarske-usluge/d2.webp" alt="katastar hr, hr katastar, zemljišna knjiga" data-max-width="1000" data-toggle="lightbox" data-gallery="example-gallery3" class="col-md-4 col-sm-12">
+                                            <img src="/1_content/1_img/katastarske-usluge/d2.webp" alt="katastar hr, hr katastar, zemljišna knjiga" class="img-fluid" style="width: fit-content;">
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <p>Dokument (akt) o dokazu legalnosti izgrađene građevine na temelju Zakona o prostornom uređenju i gradnji može biti:</p>
+                    <ul>
+                        <li><b>Građevina izgrađena do 15. veljače 1968. godine</b></li> 
+                        <p>Ukoliko je građevina izgrađena do 15. veljače 1968. godine smatra se izgrađenom na temelju pravomoćne građevinske dozvole, odnosno drugoga odgovarajućeg akta nadležnog upravnog tijela i za takvu se građevinu ne izdaje uporabna dozvola.
+                        Uvjerenje o vremenu evidentiranja građevine koji je dokaz da je neka građevina izgrađena do 15. veljače 1968. godine izdaje katastarski ured, odnosno Središnji ured Državne geodetske uprave na temelju podataka s kojima raspolažu.
+                        Ako katastarski ured, odnosno Središnji ured Državne geodetske uprave ne raspolažu podacima na temelju kojih se može izdati uvjerenje, uvjerenje o vremenu građenja građevine izdaje nadležno upravno tijelo.</p>
+                        <li><b>Građevina izgrađena do 19. lipnja 1991. godine</b></li>
+                        <p>Građevina izgrađena na temelju građevinske dozvole, odnosno odgovarajućeg akta nadležnog tijela izdanog do 19. lipnja 1991. godine upisuje se u katastarski operat uz priloženu pravomoćnu građevinsku dozvolu i potvrdu da u vezi s tom građevinom nije u tijeku postupak građevinske inspekcije.
+                        Za takvu se građevinu ne izdaje uporabna dozvola.</p>
+                        <li><b>Građevina izgrađena od 20. lipnja 1991. godine do 1. listopada 2007. godine</b></li>
+                        <p>Za građevinu izgrađenu na temelju građevinske dozvole izdane od 20. lipnja 1991. godine do 1. listopada 2007. godine umjesto uporabne dozvole nadležno upravno tijelo izdaje uvjerenje za uporabu kojim se utvrđuje da je građevina izgrađena u skladu s građevinskom dozvolom.
+                        Uvjerenje o uporabi ne može se izdati za građevine u vezi kojih je u tijeku postupak građevinske inspekcije.
+                        Građevina izgrađena na temelju građevinske dozvole izdane od 20. lipnja 1991. godine do 1. listopada 2007. godine upisuje se u katastarski operat na temelju uporabne dozvole ili gore navedenog uvjerenja u uporabi.</p>
+                        <li><b>Građevina izgrađena nakon 1. listopada 2007. godine</b></li>
+                        <p>Katastarski ured može evidentirati građevinu u katastarskom operatu ako je za tu građevinu izdana:</p>
+                        <ul>
+                            <li>uporabna dozvola za građevine za koje se izdaje građevinska dozvola, odnosno potvrda glavnog projekta,</li>
+                            <li>završno izvješće nadzornog inženjera za građevine za koje se izdaje rješenje u uvjetima građenja,</li>
+                            <li>rješenje o izvedenom stanju i</li>
+                            <li>potvrda izvedenog stanja, odnosno potvrda nadležnoga upravnog tijela da se za građevinu ne izdaje uporabna dozvola niti drugi navedeni akti, ako ovim Zakonom nije propisano drukčije.</li>
+                        </ul>
+                        <p>Građevina će se evidentirati u katastarskom operatu ako je u njemu formirana građevna (katastarska) čestica za građevinu koja se evidentira.</p>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <!--3-->
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                
+                  <h3 class="ay2" style="cursor:pointer" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <i class="fa-solid fa-xs fa-arrow-turn-down"></i>  Geodetski situacijski nacrt stvarnog stanja
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Geodetski situacijski nacrt stvarnog stanja (situacija) je snimak stvarnog stanja terena izrađen na temelju geodetske izmjere. Izrađuje se na način da se na njemu prikazuju položajni i visinski podaci o svim vidljivim prirodnim i izgrađenim objektima zemljine površine u području obuhvata u prostoru (npr. zgrade, druge građevine, vodovi, vegetacija, reljef, ...).</p>
+                    <p>Geodetski situacijski nacrt izrađuje se u svrhu ishođenja akata prostornog uređenja. Koristi se za upis građevina te za projektiranje građevina.</p>
+
+                    <section id="gallery-GSN" class="py-1">
+                        <div class="container ">
+                            <div class="row ">
+                                <div class="col-md-12 ">
+                                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                                        <a href="/1_content/1_img/katastarske-usluge/e1.webp" alt="katastar hr, hr katastar, zemljišna knjiga" data-max-width="1200" data-toggle="lightbox" data-gallery="example-gallery4" class="col-md-4 col-sm-12">
+                                            <img src="/1_content/1_img/katastarske-usluge/e1.webp" alt="katastar hr, hr katastar, zemljišna knjiga" class="img-fluid" style="width: fit-content;">
+                                        </a>
+                                    </div>                
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+              </div>
+            </div>
+
+
+            <!--4-->
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                  
+                    <h3 class="ay2" style="cursor:pointer" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <i class="fa-solid fa-xs fa-arrow-turn-down"></i>  Usklađenje katastra i zemljišne knjige
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>Usklađenje podataka katastra i zemljišne knjige (gruntovnice) je postupak u kojemu se usklađuju podaci o nekretnini upisani u katastru i zemljišnoj knjizi (gruntovnici).</p>
+                    <p>Neusklađenost podataka se očituje u vidu neslaganja broja čestice, upisane površine, izgrađenosti, neusklađenosti vlasnika, tj. posjednika, podacima o osobama i dr. Također, moguće je da čestica postoji u katastru ali ne i u zemljišnoj knjizi, i obrnuto. Česta je pojava neusklađenosti podataka katastra i zemljišne knjige i sa stvarnim stanjem na terenu.</p>
+                    <p>Neusklađenost podataka se također vrlo često javlja prilikom sklapanja kupoprodajnih ugovora i neprijavljivanja promjena u katastarskom operatu i zemljišnoj knjizi nakon sklapanja ugovora.</p>
+                    <p>Kako biste saznali jesu li podaci o čestici usklađeni, potrebno je napraviti identifikaciju. Podatak o identifikaciji izdaje nadležni ured za katastar. Ako se podaci katastra i zemljišne knjige (gruntovnice) razlikuju, tj. nisu usklađeni, potrebno je angažirati osobu koje ima suglasnost za obavljanje stručnih geodetskih poslova kako bi izradio geodetski elaborat usklađenja.</p>
+                    <p>Usklađenost podataka u katastru i zemljišnoj knjizi <b> nužan je kod kupoprodaje nekretnina, dobivanja hipotekarnog kredita banaka, gradnje, etažiranja. </b> Prilikom kupoprodaje nekretnina mjerodavni su podaci u zemljišnim knjigama, stoga je najvažnije da prodavatelj nekretnine bude upisan u zemljišne knjige jer će se jedino u tom slučaju moći zaključiti valjani kupoprodajni ugovor i steći pravo vlasništva.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <!--5-->
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  
+                    <h3 class="ay2" style="cursor:pointer" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <i class="fa-solid fa-xs fa-arrow-turn-down"></i>  Katastar infrastrukture (vodova)
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>Katastar infrastrukture osniva se i vodi na temelju evidencija koje su za pojedinu vrstu infrastrukture dužni su osnovati i voditi vlasnici odnosno njihovi upravitelji.</p>
+                    <p>U katastru infrastrukture evidentiraju se vodovi elektroenergetske, elektroničke komunikacijske, toplovodne, plinovodne, naftovodne, vodovodne i odvodne (fekalne, oborinske, mješovite vode) infrastrukture. Infrastrukturom se smatraju i drugi objekti koji joj pripadaju (pr. zdenci, plinski zatvarači, šahtovi,...).</p>
+                    <p>Katastar infrastrukture sadrži podatke o vrstama (namjeni), osnovnim tehničkim karakteristikama, trenutačnom korištenju i položaju izgrađene infrastrukture te imenima i adresama njihovih vlasnika, odnosno upravitelja, kao i sastavni dijelovi katastra infrastrukture.</p>
+                    
+                    <p>Geodetska izmjera izgrađene infrastrukture podrazumijeva izmjeru lomnih točaka infrastrukture (vodova) u položajnom i visinskom smislu, križanja novoizgrađene infrastrukture s postojećom, pripadajućih objekata. Kod podzemnih vodova infrastruktura se provodi kod otvorenog rova.</p>
+                    <p>Geodetski elaborat infrastrukture izrađuje se kao tehnička osnova za vođenje katastra infrastrukture i u slučaju:</p>
+                    <ul>
+                        <li>evidentiranja novoizgrađene i/ili neevidentirane infrastrukture</li>
+                        <li>promjene podataka o položaju na postojećoj infrastrukturi i podataka o osnovnim tehničkim karakteristikama infrastrukture</li>
+                        <li>napuštanja postojeće već evidentirane infrastrukture</li>
+                        <li>uklanjanja postojeće evidentirane infrastrukture i</li>
+                        <li>promjenu opisnih podataka o postojećoj već evidentiranoj infrastrukturi koji se vode u katastru infrastrukture.</li>
+                    </ul>
+                    <p>Vođenje i ažuriranje katastra infrastrukture od velike je važnosti za održavanje samih vodova kao i za pronalazak vodova u okviru budućih planiranja ili izvođenja radova u neposrednoj blizini istih.</p>
+                    <section id="gallery-SKI" class="py-1">
+                        <div class="container ">
+                            <div class="row ">
+                                <div class="col-md-12">
+                                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                                        <a href="/1_content/1_img/katastarske-usluge/SKI1.webp" alt="katastar hr, hr katastar" data-max-width="1400" data-toggle="lightbox" data-gallery="example-gallery5" class="col-md-4 col-sm-12">
+                                            <img src="/1_content/1_img/katastarske-usluge/SKI1.webp" alt="katastar hr, hr katastar" class="img-fluid" style="width: fit-content;">
+                                        </a>
+                                        
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!--6-->
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  
+                    <h3 class="ay2" style="cursor:pointer" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <i class="fa-solid fa-xs fa-arrow-turn-down"></i>  Upis javnih/nerazvrstanih cesta
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>Prema zakonu o cestama (NN 84/11, 22/13, 54/13, 148/13, 92/14, 110/19) uređen je pravni status, način korištenja, razvrstavanje, održavanje i upravljanje javnih i nerazvrstanih cesta.</p>
+                    <p>Javne ceste su sve ceste razvrstane kao javne ceste, koje svatko može slobodno koristiti na način i pod uvjetima određenim prema Zakonu o cestama. Javne ceste su javno dobro u općoj uporabi u vlasništvu Republike Hrvatske i ne mogu se otuđiti iz vlasništva RH niti se na njima ne mogu stjecati stvarna prava (vlasništvo, pravo građenja, pravo služnosti, …).</p>
+                    <p>Nerazvrstane ceste su ceste koje se koriste za promet vozila i koje su pristupačne većem broju korisnika, a nisu definirane kao javne ceste.</p>
+                    <p>Javne i nerazvrstane ceste koje nisu evidentirane u katastru ili nije evidentirano njihovo stvarno stanje, evidentiraju se u katastru na temelju geodetskog elaborata izvedenog stanja ceste i rješenja nadležnog zemljišnoknjižnog suda o provedbi prijavnog lista.</p>
+                    <p>Geodetski elaborat izvedenog stanja ceste izrađuje se za javne i nerazvrstane ceste koje su izgrađene do stupanja na snagu Zakona o cestama i javne ceste koje su rekonstruirane do stupanja na snagu Zakona.</p>
+                    <p>Geodetski elaborat izvedenog stanja ceste može se izrađivati za potrebe provođenja promjena u katastru zemljišta, održavanja katastra nekretnina i postupno osnivanje katastra nekretnina.</p>
+                    <section id="gallery-UNC" class="py-1">
+                        <div class="container ">
+                            <div class="row ">
+                                <div class="col-md-12">
+                                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                                        <a href="/1_content/1_img/katastarske-usluge/UC1.webp" alt="katastar hr, hr katastar, zemljišna knjiga" data-max-width="1600" data-toggle="lightbox" data-gallery="example-gallery6" class="col-md-4 col-sm-12">
+                                            <img src="/1_content/1_img/katastarske-usluge/UC1.webp" class="img-fluid" alt="katastar hr, hr katastar, zemljišna knjiga" style="width: fit-content;">
+                                        </a>
+                                        
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <!--7-->
+              <div class="card mb-4">
+                <div class="card-header " id="headingSeven">
+                  
+                    <h3 class="ay2" style="cursor:pointer" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <i class="fa-solid fa-xs fa-arrow-turn-down"></i>  Iskolčenje međa/objekata te izrada elaborata iskolčenja
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>Iskolčenje građevine je geodetski prijenos tlocrta vanjskog obrisa, odnosno osi građevine koja će se graditi, na teren unutar građevne čestice, odnosno obuhvata zahvata u prostoru koji izvodi ovlašteni inženjer geodezije sukladno posebnom propisu.</p>
+                    <p>Prije početka građenja investitor je dužan osigurati provedbu iskolčenja građevine.</p>
+                    <p>Elaborat iskolčenja građevine spada u osnovnu dokumentaciju na gradilištu.</p>
+                    <p>Iskolčenje međa je postupak kojim se na terenu utvrđuju međe prema podacima katastarskog operata. Iskolčenje i obnova/obilježavanja međa izrađuje se u svrhu:</p>
+                    <ul>
+                        <li>Uvida korisnika prava na čestici o prostiranju, tj. granicama njegovih prava</li>
+                        <li>kupnji ili prodaji nekretnine</li>
+                        <li>utvrđivanju povrede vlasništva</li>
+                    </ul>
+                  </div>
+                  <div class="container">
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <div class="row  d-flex justify-content-center align-items-center mb-3">
+                                <a href="/1_content/1_img/katastarske-usluge/i1.webp" alt="katastar hr, hr katastar, zemljišna knjiga, projektiranje kuće" data-max-width="1600" data-toggle="lightbox" data-gallery="example-gallery6" class="col-md-4 col-sm-12">
+                                    <img src="/1_content/1_img/katastarske-usluge/i1.webp" alt="katastar hr, hr katastar, zemljišna knjiga, projektiranje kuće" class="img-fluid" style="width: fit-content;">
+                                </a>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+          </div>
+    </div>   
+</section>
+
+
+
+    <link rel="stylesheet" href="/4_css/style.css">
+<footer id="main-footer" class="">
+    <div class="container">
+        <div class="card-managing">
+            <div class="cards">
+                <div class="col p-1">
+                    <h4><i class="fas fa-ruler-horizontal"></i></i> Usluge</h4>
+                    <ul>
+                        <li class="pt-1"><a href="/2_html/katastarske-usluge">Katastarske usluge</a></li>
+                        <li><a href="/2_html/inzenjerska-geodezija">Inženjerska geodezija</a></li>
+                        <li><a href="/2_html/LIDAR">LiDAR</a></li>
+                        <li><a href="/2_html/fotogrametrija">Fotogrametrija</a></li>
+                        <li><a href="/2_html/hidrografija">Hidrografija</a></li>
+                        <li><a href="/2_html/geoinformatika">Geoinformatika</a></li>
+                        
+                        
+                    </ul>
+                    <div class="col p-1">
+                        <h4><i class="fas fa-clock"></i> Radno vrijeme</h4>
+                        <p class="pt-1" >PON-PET: 07-15H</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="col p-1">
+                    <h4><i class="fas fa-user-friends"></i> Osobe ovlaštene za zastupanje</h4>
+                    <p class="pt-1"><div class="text-muted d-inline">Vlasnik: </div>Stjepan Keleminec <br> </p>
+                    <p class="pt-1"><div class="text-muted d-inline">Direktor: </div>David Perešin <br>  </p>
+                    <div class="col p-1">
+                        <h4><i class="fas fa-contact-card"></i> Kontakt</h4>
+                        <p class="pt-1">info@geometricus.hr</p>
+                        
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+            <div class="cards">
+                <div class="col p-1">
+                    <h4><i class="fas fa-archway"></i> Sjedište</h4>
+                    <p class="pt-1">Ferovac 32, 34340 Kutjevo</p>
+                    <p><div class="text-muted d-inline">OIB:</div> 28104778956</p>
+                    <br>
+                    <h4><i class="fas fa-building"></i> Ured Požega</h4>
+                    <p class="pt-1">Županijska 4, 34000 Požega</p>
+                    <p><div class="text-muted d-inline">telefon:</div> 034/273-034</p>
+                    <p><div class="text-muted d-inline">e-mail:</div> info@geometricus.hr</p>
+                    
+                    <br>
+                    <h4><i class="fas fa-building"></i> Ured Zagreb</h4>
+                    <p class="pt-1">Odra, Odranska ulica 62,</p>
+                    <p>10020 Novi Zagreb</p>
+                    <p><div class="text-muted d-inline">e-mail:</div> info@geometricus.hr</p>
+                    <br>
+                    </div>
+            </div>
+
+            
+            
+    </div>
+
+</footer>
+<div class="footer-note">
+    <div class="container">
+        <p class="h6">Izradio: MP | &copy 2023 Geometricus d.o.o.</p>
+    </div>
+</div>
+
+
+
+
+
+
+    </main>
+
+
+
+</body>
+</html>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" passive></script>
+<!--LEAFLET JS-->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+crossorigin=""></script>
+
+<script src="./3_js/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./3_js/lazysizes.min.js" async=""></script>
+<script src="./3_js/main.js"></script>
+<script>
+    
+    ScrollReveal().reveal(' .ay0-1', {scale:0.8,duration:4000});
+    ScrollReveal().reveal(' .ay0-2', {scale:0.9,duration:5000});
+    ScrollReveal().reveal(' .ay0-3', {scale:0.9,duration:3000,interval:100});
+    ScrollReveal().reveal(' .ay0-4', {scale:0.9,duration:3000,interval:200});
+    
+    ScrollReveal().reveal(' .ay1', {rotate: {
+        x: 10,
+        z: 0
+    },duration:2000});
+    ScrollReveal().reveal('.ay2', {rotate: {
+        x: 20,
+        z: 3
+    },duration:2300});
+    ScrollReveal().reveal('.ay3', {rotate: {
+        x: 30,
+        z: 3
+    },duration:2600});
+    ScrollReveal().reveal('.ay4', {rotate: {
+        x: 40,
+        z: 3
+    },duration:2900 });
+    ScrollReveal().reveal('.ay5', {rotate: {
+        x: 100,
+        z: 3
+    },duration:3100});
+    ScrollReveal().reveal('.ay6', {rotate: {
+        x: 100,
+        z: 3
+    },duration:3300});
+    ScrollReveal().reveal('.ay7', {rotate: {
+        x: 100,
+        z: 3
+    },duration:3300});
+    ScrollReveal().reveal('.ay8', {rotate: {
+        x: 100,
+        z: 3
+    },duration:3300});
+    ScrollReveal().reveal(' .ay1-1', {scale:0.9,duration:2000,distance:'500px', interval:1000});
+    ScrollReveal().reveal(' .ay1-2', {duration:1000,distance:'10px',interval:300});
+    ScrollReveal().reveal(' .ay1-3', {duration:1000,distance:'10px',interval:350});
+    ScrollReveal().reveal(' .ay1-4', {opacity:0.01,duration:4000,distance:'300px'});
+    ScrollReveal().reveal(' .ay1-5', {duration:3000,distance:'200px'});
+    ScrollReveal().reveal(' .ay1-6', {duration:5000, distance:'200px'});
+    ScrollReveal().reveal(' .ay1-7', {duration:2000, distance:'200px'});
+    ScrollReveal().reveal(' .ay1-8', {duration:4500, distance:'300px'});
+
+</script>
