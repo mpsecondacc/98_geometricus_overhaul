@@ -2,9 +2,10 @@
 title: KO HERCEGOVAC
 description: Obavijest vezana uz izmjeru katastarske općine Hercegovac
 author: info@geometricus.hr
-date: 2023-03-11
+date: 2023-03-10T23:00:00.000Z
 tags:
   - post
+  - featured
 image: /1_content/di1.webp
 imageAlt: Državna izmjera KO Hercegovac
 ---
