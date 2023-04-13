@@ -31,7 +31,7 @@ layout: 'base.njk'
 
 
 <section id="novosti">
-    <div class="text-center mt-3"><h1 class="btn-primary-alpha text-white">DRŽAVNA IZMJERA</h1></div>
+    <div class="text-center mt-3"><h1 class="btn-primary-alpha text-white">NOVOSTI</h1></div>
     <div class="container bg-white pb-3 pt-2">
     
         
@@ -39,7 +39,7 @@ layout: 'base.njk'
         <section id="featured-articles">
             <div class="container text-center ">
                 
-                <ul role="list" class="articles__list flow mt-5 d-flex flex-row justify-content-center p-0">
+                <ul role="list" class="articles__list  mt-5 d-flex justify-content-between p-0">
   
                     {%- for post in collections.featured | reverse -%}
                         {% include 'article-snippet.njk' %}
