@@ -1,10 +1,13 @@
 <li class="mb-5 d-flex justify-content-center " style="list-style:none">
-      <article class="snippet bg-white border-bottom border-top border-warning py-2 d-flex flex-wrap flex-column justify-content-center align-items-center">
-        <h1 class="snippet__title "><a class="btn btn-alpha px-5 text-white hover-no-decoration text-bold "  href="{{post.url}}">{{post.data.title}}</a></h1>
+      <article class="snippet bg-white border-bottom border-blue py-2 d-flex flex-wrap flex-column justify-content-center align-items-center">
+        <h1 class="snippet__title "><a class="btn btn-alpha text-white hover-no-decoration text-bold px-2 text-wrap" style="
+    white-space:normal !important;
+    word-wrap: break-word !important; 
+" href="{{post.url}}">{{post.data.title}}</a></h1>
         <img src="{{  post.data.image  }}" alt="{{  post.data.imageAlt  }}" class="snippet_image w-75">
         
-        <p class="snippet__meta small">objavio/la <span class="text-warning text-bold">{{post.data.author}}</span> dana <span class="text-bold text-warning">{{post.date | postDate}}</span> <span></span></p>
+        <p class="snippet__meta small">objavio/la <span class="text-bold" style="color:var(--marine-blue-color);">{{post.data.author}}</span> dana <span class="text-bold" style="color:var(--marine-blue-color);">{{post.date | postDate}}</span> <span></span></p>
         <p class="snippet__body">{{post.data.description}}</p>
-        <h5 class="mx-2"><a style="background-color: var(--primary-color);" href="{{post.url}}" class="text-white px-1 hover-no-decoration ">Pročitaj cijelu obavijest ...</a></h2>
+        <h5 class="mx-2 target1"><a style="background-color: var(--primary-color);" href="{{post.url}}" class="text-white px-1 hover-no-decoration ">Pročitaj cijelu obavijest ...</a></h2>
       </article>
     </li>

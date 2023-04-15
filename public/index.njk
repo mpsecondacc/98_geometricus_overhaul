@@ -32,14 +32,14 @@ layout: 'base.njk'
 
 <section id="novosti">
     <div class="text-center mt-3"><h1 class="btn-primary-alpha text-white">NOVOSTI</h1></div>
-    <div class="container bg-white pb-3 pt-2">
+    <div class=" bg-white pb-3 pt-2">
     
         
     
         <section id="featured-articles">
-            <div class="container text-center ">
+            <div class="container text-center  ">
                 
-                <ul role="list" class="articles__list  mt-5 d-flex justify-content-between p-0">
+                <ul role="list" class="articles__list mt-5 d-flex justify-content-between p-0">
   
                     {%- for post in collections.featured | reverse -%}
                         {% include 'article-snippet.njk' %}
@@ -69,7 +69,7 @@ layout: 'base.njk'
                     
                 </div>
                 <div class="text-h1">
-                    <a style="text-decoration: none;" href="/2_html/fotogrametrija.html"><h3 class="text-secondary ay1-5 border-bottom border-warning">Terestrička <span class="text-primary-alpha">fotogrametrija</span> i <span class="text-primary-alpha">aerofotogrametrija</span></h3></a>
+                    <a style="text-decoration: none; " href="/2_html/fotogrametrija"><h3 class="text-secondary ay1-5 border-bottom border-blue">Terestrička <span class="text-primary-alpha">fotogrametrija</span> i <span class="text-primary-alpha">aerofotogrametrija</span></h3></a>
                 </div>
                 <div class="hidden-ftgm " style="display: none;">  
                     
@@ -103,7 +103,7 @@ layout: 'base.njk'
                 </div>
                 </div>
             </div>
-            <a href="/2_html/LIDAR.html" class=" btn-alpha btn-primary-alpha my-2 ay1-8">SAZNAJTE VIŠE</a>
+            <a href="/2_html/fotogrametrija" class=" btn-alpha btn-primary-alpha my-2 ay1-8">SAZNAJTE VIŠE</a>
         </div>
     </div>
 </section>
@@ -116,7 +116,7 @@ layout: 'base.njk'
         <div class="row  ">
             <div class="col-sm-12 ">
                 <div class="container-content d-flex flex-column justify-content-between align-items-center bg-white " id="red7">
-                    <a style="text-decoration: none;" href="/2_html/LIDAR.html" class="mt-5"><h3  class="text-secondary ay1-5 border-bottom border-warning"><span  class="text-primary-alpha"> LiDAR</span> i terestričko lasersko skeniranje</h3></a>
+                    <a style="text-decoration: none;" href="/2_html/LIDAR" class="mt-5"><h3  class="text-secondary ay1-5 border-bottom border-blue"><span  class="text-primary-alpha"> LiDAR</span> i terestričko lasersko skeniranje</h3></a>
                     <p id="3" class="text-center ay1-8">Kombinacijom Applanix-ovog <b>APX20 IMU-a</b> te Riegl-ovog <b>miniVUX 3</b> laserskog senzora  isporučujemo <span class="text-bold">detaljan digitalni model terena</span>. Jedna od glavnih prednosti u usporedbi s fotogrametrijom je <span class="text-bold">mogućnost filtriranja vegetacije.</span> 
                     Primjenu nalazi u <span class="text-bold">mapiranju koridora - cestovne prometnice, željeznice i dalekovodi, složenih industrijskih postrojenja, šumskog inventara, velikih rudarskih površina, ...</span> </p>
 
@@ -135,7 +135,7 @@ layout: 'base.njk'
                             <img slot="second" class="lazyload" data-src="/1_content/1_img/index_pics/LIDAR/7-992.webp" alt="LIDAR" width="100%" height="600px" loading="lazy"/>
                         </img-comparison-slider> -->
                        
-                    <a href="/2_html/LIDAR.html" class=" btn-alpha btn-primary-alpha my-lg-2 px-lg-5 my-sm-2 px-sm-5 ay1-8">SAZNAJTE VIŠE</a>
+                    <a href="/2_html/LIDAR" class=" btn-alpha btn-primary-alpha my-lg-2 px-lg-5 my-sm-2 px-sm-5 ay1-8">SAZNAJTE VIŠE</a>
                     
                     
                 </div>
@@ -165,7 +165,7 @@ layout: 'base.njk'
                     <img class="lazyload " data-src="/1_content/1_img/index_pics/HYDRO/wassp2.webp" width="100%"  id="" alt="" loading="lazy">
                 </div>
                               
-                <a href="/2_html/hidrografija.html" class="btn-alpha btn-info mx-5 ay1-5">DETALJNIJE</a>
+                <a href="/2_html/hidrografija" class="btn-alpha btn-info mx-5 ay1-5">DETALJNIJE</a>
             </div>
         </div>
     </div>
@@ -190,7 +190,7 @@ layout: 'base.njk'
                                 <li class="font-weight-light ay1-2"><i class="far fa-check-square"></i> <span class="font-weight-normal">Obnova međa</span></li>
                                 
                             </ul>
-                            <a href="/2_html/katastarske-usluge.html" class="btn-alpha btn-primary-alpha mx-5">DETALJNIJE</a>
+                            <a href="/2_html/katastarske-usluge" class="btn-alpha btn-primary-alpha mx-5"  >DETALJNIJE</a>
                         
                     </div>
                 </div>
@@ -269,7 +269,7 @@ layout: 'base.njk'
                    
                 </div>
                 <div class="col-lg-6">
-                    <div class="card">
+                    <div class="card" >
                         <h3 class="text-primary-alpha pt-md-5 text-center-on-small-screens">Inženjerska geodezija u graditeljstvu</h1>
                             <p class="font-italic text-center-on-small-screens"id="2">Primjena mjernih sustava u projektiranju i izgradnji objekata te praćenju pomaka i deformacija pri izgradnji i eksploataciji.</p>
                             
@@ -285,7 +285,7 @@ layout: 'base.njk'
                                 
                                 
                             </ul>
-                            <a href="/2_html/inzenjerska-geodezija.html" class="btn-alpha-rev btn-primary-alpha mx-5">DETALJNIJE</a>
+                            <a href="/2_html/inzenjerska-geodezija" class="btn-alpha-rev btn-primary-alpha mx-5">DETALJNIJE</a>
                         
                     </div>
                 </div>
@@ -315,7 +315,7 @@ layout: 'base.njk'
                     
                     
                     
-                    <a href="lociranje-vodova.html" class="btn-alpha btn-primary-alpha px-lg-5 px-sm-5 mt-2 ay1-7">SAZNAJTE VIŠE</a>
+                    <a href="lociranje-vodova" class="btn-alpha btn-primary-alpha px-lg-5 px-sm-5 mt-2 ay1-7">SAZNAJTE VIŠE</a>
                 </div>
             </div>
         </div>

@@ -7,6 +7,7 @@ date: 2023-04-13T20:23:27.035Z
 tags:
   - post
   - featured
+  - blue
 image: /1_content/1.webp
 imageAlt: HydroGraphBoost - Geometricus, Požega
 ---

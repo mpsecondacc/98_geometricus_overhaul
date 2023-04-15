@@ -1,0 +1,13 @@
+<li class="mb-5 d-flex justify-content-center " style="list-style:none">
+      <article class="snippet bg-white border-bottom border-blue py-2 d-flex flex-wrap flex-column justify-content-center align-items-center">
+        <h1 class="snippet__title "><a class="btn btn-alpha text-white hover-no-decoration text-bold px-2 text-wrap" style="
+    white-space:normal !important;
+    word-wrap: break-word !important; 
+" href="{{post.url}}">{{post.data.title}}</a></h1>
+        <img src="{{  post.data.image  }}" alt="{{  post.data.imageAlt  }}" class="snippet_image w-75">
+        
+        <p class="snippet__meta small">posted by <span class="text-bold" style="color:var(--marine-blue-color);">{{post.data.author}}</span> on <span class="text-bold" style="color:var(--marine-blue-color);">{{post.date | postDate}}</span> <span></span></p>
+        <p class="snippet__body">{{post.data.description}}</p>
+        <h5 class="mx-2 target1"><a style="background-color: var(--primary-color);" href="{{post.url}}" class="text-white px-1 hover-no-decoration ">Read more ...</a></h2>
+      </article>
+    </li>

@@ -1,0 +1,2082 @@
+/* ROOT SHIT */
+#main-nav .container .menu-wrap{
+    display: none;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.form-control:focus {
+    border-color: var(--light-color)!important;
+    box-shadow: 0 0 0 0.2rem var(--primary-color)!important;
+} 
+
+.dark-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.dark-overlay2 {
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 2560px) {
+    .container2{
+        margin-left: 280px;
+        margin-right: 280px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    #kontakt-forma, #kontakt-forma p:first-child{
+        padding-top: 0rem!important;
+    }
+    
+}
+
+:root{
+    --primary-color:#0981D1;;
+    --primary-color-alpha:#0981D1;
+    --marine-blue-color:#0981D1;
+    --secondary-color:rgb(172, 46, 70);
+    --overlay-color:#0981D1;;
+    --light-color:#f3f3f3;
+    --white-color:#ffffff;
+    --dark-color:#333;
+    --darkishlightcolor:rgb(77, 77, 77);
+    --max-width: 1100px;
+    --dark-overlay:rgba(0,0,0,0.7)
+}
+.border-blue{
+    border-bottom:2px solid var(--marine-blue-color)!important;
+}
+.txt-primary-color{
+    color: var(--primary-color);
+}
+
+.txt-pad1{
+    padding-left: 1.4rem;
+    line-height: 1.5rem;
+}
+
+.text-bold {
+    font-weight: bolder;
+}
+.btn-primary-alpha{
+    
+    background: var(--primary-color-alpha);
+    
+}
+
+html,body{
+   background: #f4f4f4; 
+   
+}
+
+body{
+    font-family: 'Work Sans', sans-serif!important;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  
+}
+body::-webkit-scrollbar{
+    display: none;
+  
+}
+
+*{
+    margin:0;
+    
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 1650px!important;   
+
+    
+ 
+    
+
+}
+
+/*NAVBAR*/
+
+#main-nav{
+    background: #fff;
+    position:sticky;
+    top:0;
+    left: 0;
+    z-index:3;
+}
+
+#main-nav ul {
+    margin-bottom: 0!important;
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+}
+
+
+.geometricus-img{
+    width: 300px;
+}
+
+.norway-img2{
+    width: 200px;
+}
+
+.kontenjer{
+    position:relative;
+    text-align: left;
+    color: white;
+    width: 100%;
+    
+}
+.centered-class {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}
+.centered-class2 {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}
+#main-nav ul li{
+    font-size: 20px;
+    
+    display:inline-block;
+    text-decoration: none;
+    padding: 0 0.2rem;
+    position: relative;
+    cursor:pointer;
+    
+}
+
+#main-nav ul li i{
+    color: var(--primary-color);
+}
+
+
+#main-nav .container a:hover{
+    
+    transition: all .5s ease-out;
+}
+
+#main-nav ul li a {
+    color:var(--dark-color);
+    text-decoration: none;
+    
+}
+
+#main-nav ul li a:hover {
+    color:var(--primary-color);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+#main-nav .container ul li ul{
+    display:none;
+}
+
+
+
+
+
+
+#main-nav .container ul li:hover ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    padding-left: 0!important;
+    top:1.9rem;
+    left:0;
+    padding-right: 0!important;
+    width: 270px;
+    height: auto;
+    background: var(--white-color);
+}
+
+#main-nav .container ul li:hover ul a{
+    color:var(--dark-color);
+    width:100%;
+    text-decoration: none;
+    
+}
+
+.hover-no-decoration:hover {
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.2s ease-in-out;
+  }
+
+#main-nav .container ul li:hover ul li:hover{
+    display: inline-block;
+    background:var(--marine-blue-color);
+    
+    width:100%;
+    transition: all 0.2s ease-in-out;
+}
+
+/*BUTTON STYLING*/
+
+.btn-block{
+    display: block;
+    width: 100%;
+    text-align:center;
+}
+
+.btn{
+    display: inline-block;
+    border: none;
+    background: var(--primary-color);
+    border-radius: 15px;
+    color:#fff;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-alpha{
+    display: inline-block;
+    border: none;
+    background: var(--primary-color-alpha);
+    border-radius: 5px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0.1rem 0rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+.btn-alpha:hover{
+    background-color: #333;
+    color:var(--primary-color);
+    transition: all .3s ease-in;
+    text-decoration: none;
+}
+
+@media(max-width:992px) {
+    .text-center-on-small-screens {
+      text-align: center;
+    }
+    .kontenjer .centered-class {
+        display: none;
+    }
+    .kontenjer .centered-class2 {
+        display: none;
+    }
+    .hidden-ftgm{
+        display:contents!important;
+    }
+    .hidden-ftgm2{
+        display:contents!important;
+    }
+ 
+  }
+
+
+
+.btn-alpha-rev{
+    display: inline-block;
+    border: none;
+    background: var(--dark-color);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0rem 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.btn-alpha-rev:hover{
+    background-color: var(--primary-color-alpha);
+    color:var(--light-color);
+    transition: all .3s ease-in;
+    text-decoration: none;
+}
+
+.btn-primary{ background: var(--primary-color);
+}
+.btn-secondary{ background: var(--secondary-color);
+}
+.btn-secondary:hover{
+    transition: all .3s ease-in;
+    color: var(--primary-color);
+    background: var(--dark-color);
+}
+.btn-light{ background: var(--light-color);
+    
+}
+/*Geodetske usluge za katastar*/
+
+.far{
+    color:var(--primary-color)
+}
+
+
+
+
+#djelatnosti .container .row .col-lg-6 .card{
+    border: none !important;
+}
+
+#djelatnosti .container .row .col-lg-6 .card .card-list{
+    list-style:none;
+}
+
+
+
+#djelatnosti .container .card p{
+    margin-bottom:1rem;
+    padding-left: 0rem;
+    font-size: 1.3rem;
+}
+
+#djelatnosti .card:nth-child(2) .card-list li:nth-child(2),#djelatnosti .card:nth-child(2) .card-list li:nth-child(3) {
+    padding-bottom: rem;
+}
+
+#djelatnosti .card .card-list li{
+    line-height: 2rem;
+    
+    font-size: 1.2rem;
+}
+
+#djelatnosti .container .cards .card ul {
+    list-style:none;
+}
+
+#djelatnosti .card a{
+    text-decoration: none;
+    font-weight: 700;
+    padding:.5rem;
+    margin-top:.5rem;
+    margin-left:0rem;
+    
+}
+
+
+
+
+
+#djelatnosti .cards .card:nth-child(1){
+    grid-area:card1;
+}
+
+#djelatnosti .cards .card:nth-child(2){
+    grid-area:card2;
+}
+#djelatnosti .cards #slider3{
+    grid-area:g1;
+}
+#djelatnosti .cards .g2{
+    grid-area:g2;
+}
+#djelatnosti .cards #slider3 img{
+    overflow: hidden;
+    display: block;
+    width: 450px;
+    
+    background: url('../1_content/1_img/katusluge1.webp') no-repeat center center/cover;
+    border-radius: 30px;
+}
+
+#djelatnosti .cards .g2 {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../1_content/1_img/surv3.webp') no-repeat center center/cover;
+    border-radius: 30px;
+}
+
+.sketchfab-embed-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#showcase1{
+    color: white;
+    background: var(--dark-color);
+    padding: 0;
+}
+
+/* VIDEO CENTERED INSIDE CONTAINER */
+#showcase1 video {
+    position:relative;
+    z-index:0;
+    object-fit:cover;
+    top: 0;
+    left:0;
+    width: 100%;
+    
+    margin: .2rem;
+    opacity: 80%;
+}
+#showcase1 .showcase-container1 {
+    position:absolute;
+    left:0;
+    z-index:2;
+    width: 100%;
+    
+}
+.showcase-content1 {
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+/*IMG GALLERY*/
+
+#home-articles{
+    margin: 0;
+    padding: 0;
+}
+
+#home-articles .articles-container{
+    
+    display:grid;
+    overflow: hidden;
+    grid-template-columns: auto;
+    grid-gap:0;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home-articles .container{
+    background-color: var(--light-color);
+    display: flex;
+    padding:0;
+    
+}
+
+
+#home-articles .panel{
+    display: block;
+    background-size: auto auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:40vh;
+    border-radius:0px;
+    color:white;
+    cursor: pointer;
+    flex:1;
+    margin:5px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+
+/*WHY US SECTION*/
+
+.text-primary-alpha{
+    font-weight: bold/* tu zamijeni*/;
+    font-size: 2rem;
+    color: var(--dark-color);
+}
+
+.text-secondary{
+    font-weight: lighter;
+    font-size:2rem;
+    color: var(--dark-color);
+}
+
+#whyUs .row h3{
+    text-align: left;
+    
+}
+
+#whyUs h2{
+    text-align: center;
+    margin-bottom:1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--dark-color);
+}
+
+#whyUs .row{
+    display: grid;
+    grid-template-columns: 2fr 4fr 5fr 1fr;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--dark-color);
+}
+
+#whyUs .row img{
+    width: 140px;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+
+#whyUs .row p{
+    margin-left:2rem;
+}
+/* FOOTER */
+
+#main-footer{
+    text-align: center;
+}
+
+#main-footer .container{
+    padding-top:1rem;
+    margin-bottom: 0rem;
+    padding: 0 0!important;
+    
+}
+
+#main-footer .container .card-managing {
+    background-color: var(--dark-overlay);
+    color: var(--light-color);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    justify-content: space-between;
+    
+    
+}
+
+#main-footer .container .cards ul{
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+#main-footer .container .cards ul li a{
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+.footer-note .container{
+    background-color: var(--dark-overlay);
+    color: var(--primary-color);
+    display: flex;
+    padding: 0rem;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--light-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#main-footer .container .cards .col p{
+    margin-bottom: 0!important;
+    
+}
+
+
+
+#main-footer .container .cards .col h4{
+    font-size: 1.3rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid var(--light-color);
+    text-align: left;
+    color: var(--primary-color-alpha);
+}
+
+@media screen and (max-width:1200px){
+    #main-footer .container .cards .col h4{
+        text-align: center;
+    }
+
+
+    #featured-articles .container ul{
+        flex-direction: column;
+    }
+    .snippet img{
+        height:fit-content;
+    }
+   
+
+  
+    
+}
+
+#main-footer .container .cards .col{
+    line-height: 1.3rem;
+}
+
+.pt-1 {
+    padding-top:1rem;
+}
+
+#google .container{
+    padding:1rem 0;
+}
+
+#google .container .map {
+    
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    margin-right: 1rem;
+    position: relative;
+    justify-items: center;
+    
+}
+
+#google .container .map2 {
+   
+    top:0;
+    left:0;
+    width: 100%;
+    height: 350px;
+    margin-left:1rem;
+    position: relative;
+    justify-items: center;
+}
+
+#google .container .map-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+    position:relative;justify-items: center;
+}
+
+
+#google .container .text-container {
+    padding-top: 2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    color:var(--dark-color);
+    
+}
+
+#google .container .text-container h4{
+ text-align: center;
+ font-weight: 700;
+ padding-bottom:15px;
+}
+
+#google .map-container .text-container{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#fotogrametrija .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#fotogrametrija .container .img img:nth-child(2){
+    width:100%;
+    height: auto;
+    display:none;
+}
+
+#fotogrametrija .container .img img:nth-child(1){
+    width:100%;
+    height: auto;
+}
+
+#fotogrametrija .container .text-h1{
+    margin-top:rem;
+}
+
+#fotogrametrija .container .text-h1 h3{
+    text-align: center;
+}
+
+#fotogrametrija .container .text-p{
+    text-align: center;
+    margin: 0rem 1rem;
+}
+
+
+
+
+#lasersko-skeniranje .container{
+    position: relative;
+}
+
+
+
+
+
+.white{
+    color: var(--light-color);
+}
+
+
+#geoinformatika-kartografija .container img {
+    position:relative;
+    z-index:0;
+    object-fit: cover;
+    top: 0;
+    left:0;
+    width: 100%;
+    
+    object-fit: fill;
+}
+
+
+
+
+
+
+#geoinformatika-kartografija .container .container-content p a{
+    text-decoration: none;
+    
+}
+
+#katastarske-usluge img{
+    position:relative;
+    z-index:0;
+    object-fit: cover;
+    width:100%;
+    height: auto;
+    
+}
+#katastarske-usluge .header-type{
+    position: relative;
+    min-height: 600px;
+    
+    background: url(../1_content/1_img/katastarske-usluge/KU-header.webp);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+#lociranje-vodova .pv-background-img{
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+    background: url(../1_content/1_img/index_pics/LOC-VOD/2.webp);
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+.o-nama-background{
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+    background: url(../1_content/1_img/index_pics/O-NAMA/head.webp);
+    background-position: center;
+    background-attachment:scroll;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+#katastarske-usluge .parcelacijski-elaborat .PE-images{
+    display: flex;
+    flex-direction: row;
+}
+
+#katastarske-usluge .upis .upis-images{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#katastarske-usluge .geodetski-elaborat-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#katastarske-usluge .GE-images{
+    display: flex;
+    width: 70%;
+    padding-bottom: 2rem;
+}
+
+#katastarske-usluge .SKI-images{
+    width: fit-content;
+}
+
+#katastarske-usluge .UNC .UNC-images{
+    width: 100%;
+    
+}
+
+#inzenjerska-geodezija h1{
+    
+    text-align: center;
+    
+    color: var(--light-color);
+}
+#inzenjerska-geodezija .background{
+    position: relative;
+    min-height: 600px;
+    background: url(../1_content/1_img/inzenjerska-geodezija/IG-header.webp);
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+#inzenjerska-geodezija .geodetski-nadzor{
+    position: relative;
+    min-height: 400px;
+    background: url(../1_content/1_img/inzenjerska-geodezija/n-1.webp);
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+#inzenjerska-geodezija  h2{
+    color: var(--primary-color);
+}
+
+#fotogrametrija-panel  .foto-type h1 {
+    
+    text-align: center;
+    
+    color: var(--light-color);
+}
+
+#geoinformatika h1{
+    text-align: center;
+    color: var(--light-color);
+}
+
+#geoinformatika  .geoinformatika-background-img{
+    position: relative;
+    min-height: 600px;
+    background: url(../1_content/1_img/geoinformatika/header.webp);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: top;
+    text-align: center; 
+}
+
+#fotogrametrija-panel  .foto-type{
+    position: relative;
+    min-height: 600px;
+    background: url(../1_content/1_img/fotogrametrija/f-header.webp);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: bottom;
+    text-align: center; 
+}
+
+body{
+    position: relative;
+    min-height: 600px;
+    background: url(../1_content/1_img/background/2.webp);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+    overflow-x: hidden;
+    
+}
+
+#cards_landscape_wrap-2{
+    text-align: center;
+    background: #f7f7f700;
+  }
+
+  #cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+    border-radius: 0px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+    
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 0px 0px;
+  }
+  #cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin: 50px 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+   
+  }
+  
+
+  #cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.5s ease-in;
+    margin-top: 50px;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+      height: 200px;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .text-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+    
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box h6{
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    letter-spacing: 1px;
+    color: var(--primary-color);
+  }
+
+#T3DLS .dls-background-img{
+    position: relative;
+    min-height: 600px;
+    background: url(../1_content/1_img/3d-lasersko-skeniranje/1.webp);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    text-align: center; 
+}
+
+#LIDAR .lidar-background-img{
+    position: relative;
+    min-height: 600px;
+    background: url(../1_content/1_img/lidar/back2.webp);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: bottom;
+    text-align: center; 
+
+}
+
+
+
+#LIDAR .lidar2-background-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+    background: url(../1_content/1_img/lidar/back.webp);
+    background-attachment: scroll;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center; 
+    margin: -1rem 0;
+   
+}
+
+
+#LIDAR .lidar-background-img{
+    padding:3rem 0;
+    text-align: center;
+    
+    color: var(--light-color);
+}
+
+
+#kontakt-forma {
+    padding-bottom: 15rem;
+    padding-top: 5rem;
+
+}
+
+
+
+#fotogrametrija-panel .container h2{
+    color: var(--primary-color);
+}
+
+#katastarske-usluge .parcelacijski-elaborat, #katastarske-usluge .upis, #katastarske-usluge .GSNSS, #katastarske-usluge .UPKIZK, #katastarske-usluge .SKI, #katastarske-usluge .UNC{
+    background: #f3f3f3;
+    margin-bottom: 2rem;
+}
+#katastarske-usluge h2, #katastarske-usluge h1{
+    color: var(--primary-color);
+}
+
+#katastarske-usluge .header-type h1{
+    
+    text-align: center;
+    
+    color: var(--light-color);
+}
+
+#katastarske-usluge h3,#katastarske-usluge h4{
+    color: grey;
+}
+
+#T3DLS h1{
+    padding:3rem 0;
+    text-align: center;
+    
+    color: var(--light-color);
+}
+
+
+
+
+/*MOBILE RESPONSIVENESS*/
+.text-container-small2,.text-container-small1{
+    display: none;
+}
+@media screen and (max-width:2560px){
+    .container{
+        width:70vw;
+        margin: 0 auto;
+    }
+    
+   
+}
+@media screen and (max-width:1920px){
+    .container{
+        width:85vw;
+        margin: 0 auto;
+    }
+    
+  
+}
+@media screen and (max-width:1440px){
+    .container{
+        width:90vw;
+        margin: 0 auto;
+    }
+
+    
+    
+}
+
+
+@media screen and (max-width:950px){
+    #main-footer .container .card-managing {
+        
+        display:grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width:100vw;
+        margin: 0 auto;
+    }
+    
+
+    #djelatnosti .container .cards{
+        display: flex;
+        flex-direction: column;
+        
+    }    
+    
+    #red4 {
+        border-top: var(--dark-color) 1px solid;
+        margin: 2rem 0rem;
+        padding-top:1rem;
+    }
+
+
+  
+    #fotogrametrija .text-h1 h3{
+        text-align: center;
+    }
+
+    
+
+    #red5{order:1}
+    #red8{order:2}
+    #red7{order:3}
+    #red6{order:4}
+
+    #whyUs .container .row{
+        display: flex;
+        flex-direction: column;
+        padding:0.5rem;
+    }
+    #whyUs .container .row img{
+     display: block;
+     position: relative;   
+     top:0;
+     left:0;
+     transform: none;
+     padding-top:0rem;
+    }
+    #whyUs .container .row h3{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    #whyUs .container .row p{
+        text-align: center;
+        padding:1rem;
+    }
+
+    
+    #google .container .map-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #google .container .map-container .map{
+        margin: 1rem;
+        
+        
+    }
+
+    #google .container .map-container .map2{
+        margin: 1rem;
+        
+        
+    }
+    .text-container-small2,.text-container-small1{
+        display: contents;
+    }
+    #main-footer .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        
+        
+    }
+    #main-footer .container .card-managing {
+        
+        display:grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    
+}
+/*LAST BUT NOT LEAST*/
+@media screen and (max-width: 767px){
+    .container{
+        width:100vw;
+        margin: 0 auto;
+    }
+
+    
+
+   
+/* FONT FIXUP */
+
+    #fotogrametrija .container .img img:nth-child(1){
+    
+    display:none;
+    }
+    #fotogrametrija .container .img img:nth-child(2){
+    
+        display:block;
+    }
+
+    #fotogrametrija .container{
+        margin-bottom: 1rem;
+    }
+
+    #djelatnosti .container {
+        margin-top:0;
+        padding-top: 0;
+        padding:0;
+    }
+
+    #geoinformatika-kartografija .container-content a{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        
+    }
+    
+
+    #djelatnosti .container .card{
+        margin-bottom: 0;
+        padding:1rem;
+    }
+    
+
+    #djelatnosti .container .card .text-primary-alpha{
+        line-height: 2rem;
+        padding: 1rem 0;
+        margin: 0 0;
+    }
+
+    #fotogrametrija .container .text-p p{
+        font-size:1.2rem;
+    }
+    
+   
+
+   
+
+    #whyUs .container .row p{
+        margin:0;
+    }
+/* FONT FIXUP END */ 
+
+    #djelatnosti .container .cards{
+        display: flex;
+        flex-direction: column;
+        
+    }    
+    
+    #red4 {
+        border-top: var(--dark-color) 1px solid;
+        margin: 2rem 0rem;
+        padding-top:1rem;
+    }
+
+    #djelatnosti .cards .g1 {
+        width: 100%;
+        height: 400px;
+        background: url('../1_content/1_img/katusluge1.webp') no-repeat center center;
+    }
+    #djelatnosti .cards .g2 {
+        width: 100%;
+        height: 400px;
+        background: url('../1_content/1_img/surv3.webp') no-repeat center center;
+    }
+
+    #red1{order:1}
+    #red2{order:2}
+    #red3{order:4}
+    #red4{order:3}
+
+    #fotogrametrija .text-h1 h3{
+        text-align: center;
+    }
+
+    
+    #red5{order:1}
+    #red8{order:2}
+    #red7{order:3}
+    #red6{order:4}
+
+    
+    #whyUs .container .row img{
+     display: block;
+     position: relative;   
+     top:0;
+     left:0;
+     transform: none;
+     padding-top:0rem;
+    }
+    #whyUs .container .row h3{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    #whyUs .container .row p{
+        text-align: center;
+        padding:1rem;
+    }
+
+    
+    #google .container .map-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #google .container .map-container .map{
+        margin: 1rem;
+        
+        
+    }
+
+    #google .container .map-container .map2{
+        margin: 1rem;
+        
+        
+    }
+    .text-container-small2,.text-container-small1{
+        display: contents;
+    }
+    #main-footer .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        
+        
+    }
+    #main-footer .container .card-managing {
+        
+        display:grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+
+
+    
+}
+@media screen and (max-width: 575px){
+    .container{
+        width:100vw;
+        margin: 0 auto;
+    }
+    .norway-img2{
+        display: none;
+    }
+   
+    .menu-wrap .toggler {
+        
+        height: 54.83px!important;
+      }
+    .menu-wrap .hamburger {
+        
+        height: 54.83px!important;
+        
+      }
+
+
+
+
+/* FONT FIXUP END */ 
+
+    #djelatnosti .container .cards{
+        display: flex;
+        flex-direction: column;
+        
+    }    
+    
+    #red4 {
+        border-top: var(--dark-color) 1px solid;
+        margin: 2rem 0rem;
+        padding-top:1rem;
+    }
+
+    #djelatnosti .cards .g1 {
+        width: 100%;
+        height: 400px;
+        background: url('../1_content/1_img/katusluge1.webp') no-repeat center center;
+    }
+    #djelatnosti .cards .g2 {
+        width: 100%;
+        height: 400px;
+        background: url('../1_content/1_img/surv3.webp') no-repeat center center;
+    }
+
+    #red1{order:1}
+    #red2{order:2}
+    #red3{order:4}
+    #red4{order:3}
+
+    #fotogrametrija .text-h1 h3{
+        text-align: center;
+    }
+
+    
+    #red5{order:1}
+    #red8{order:2}
+    #red7{order:3}
+    #red6{order:4}
+
+    #whyUs .container .row{
+        display: flex;
+        flex-direction: column;
+        padding:0.5rem;
+    }
+    #whyUs .container .row img{
+        display: block;
+        position: relative;   
+        top:0;
+        left:0;
+        transform: none;
+        padding-top:0rem;
+    }
+    #whyUs .container .row h3{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    #whyUs .container .row p{
+        text-align: center;
+        padding:1rem;
+    }
+
+    
+    #google .container .map-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #google .container .map-container .map{
+        margin: 1rem;
+        
+        
+    }
+
+    #google .container .map-container .map2{
+        margin: 1rem;
+        
+        
+    }
+    .text-container-small2,.text-container-small1{
+        display: contents;
+    }
+    #main-footer .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        
+        
+    }
+    #main-footer .container .card-managing {
+        
+        display:grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+
+
+    
+
+
+
+}
+
+@media screen and (max-width: 992px){
+    #main-nav .container span{
+        display: none;
+    }
+    #main-nav .container .menu-wrap{
+        display: contents;
+    }
+
+    
+
+    #partneri .row .container .logo-carousel .slide img{
+        width: 200px;
+    }
+
+    #inzenjerska-geodezija .dark-overlay2 .ay {
+        display: flex!important;
+        flex-direction:column!important;
+        justify-content: start!important;
+    }
+    #inzenjerska-geodezija .geodetski-nadzor{
+        min-height: 900px;
+    }
+    #inzenjerska-geodezija .container .background{
+    min-height: 400px;
+    background-position: center;
+    }
+    
+
+    
+    
+    #main-nav .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+    
+
+    #main-nav .container span{
+        display: none;
+    }
+    #main-nav .container .menu-wrap{
+        display: contents;
+    }
+    
+
+    #main-nav{
+        background: #fff;
+        color: var(--dark-color);
+        position:sticky;
+        top:0;
+        z-index:3;
+        
+    }
+    
+    #main-nav .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+
+    .menu-wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      
+      .menu-wrap .toggler {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        cursor: pointer;
+        width: 60px;
+        height: 54.83px!important;
+        opacity: 0;
+      }
+      
+      .menu-wrap .hamburger {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        width: 60px;
+        height: 54.83px;
+        padding: 1rem;
+        background: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      /* Hamburger Line */
+      .menu-wrap .hamburger > div {
+        position: relative;
+        flex: none;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.4s ease;
+      }
+      
+      /* Hamburger Lines - Top & Bottom */
+      .menu-wrap .hamburger > div::before,
+      .menu-wrap .hamburger > div::after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: -10px;
+        width: 100%;
+        height: 2px;
+        background: inherit;
+      }
+      
+      /* Moves Line Down */
+      .menu-wrap .hamburger > div::after {
+        top: 10px;
+      }
+      
+      /* Toggler Animation */
+      .menu-wrap .toggler:checked + .hamburger > div {
+        transform: rotate(135deg);
+      }
+      
+      /* Turns Lines Into X */
+      .menu-wrap .toggler:checked + .hamburger > div:before,
+      .menu-wrap .toggler:checked + .hamburger > div:after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      
+      /* Rotate On Hover When Checked */
+      .menu-wrap .toggler:checked:hover + .hamburger > div {
+        transform: rotate(225deg);
+      }
+      
+      /* Show Menu */
+      .menu-wrap .toggler:checked ~ .menu {
+        visibility: visible;
+      }
+      
+      .menu-wrap .toggler:checked ~ .menu > div {
+        transform: scale(1);
+        transition-duration: var(--menu-speed);
+      }
+      
+      .menu-wrap .toggler:checked ~ .menu > div > div {
+        opacity: 1;
+        transition:  opacity 0.4s ease 0.4s;
+      }
+      
+      .menu-wrap .menu ul{
+          display: flex;
+          flex-direction: column;
+      }
+
+      .menu-wrap .menu ul{
+          background: var(--primary-color);
+          border-radius: 15px;
+      }
+      
+      .menu-wrap .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .menu-wrap .menu > div {
+        background: var(--overlay-color);
+        border-radius: 50%;
+        width: 300vw;
+        height: 300vw;
+        display: flex;
+        flex: none;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0);
+        transition: all 0.4s ease;
+      }
+
+      .menu-wrap .menu ul{
+          padding-left:0;
+      }
+
+      .menu-wrap .menu > div > div {
+        text-align: center;
+        max-width: 90vw;
+        max-height: 100vh;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
+      
+      .menu-wrap .menu > div > div > ul > li {
+        list-style: none;
+        
+        font-size: 1.5rem;
+        padding: 1rem;
+      }
+      
+      .menu-wrap .menu > div > div > ul > li > a {
+        color: var(--light-color);
+        text-decoration: none;
+        transition: color 0.4s ease;
+      }
+      
+      .menu-wrap .menu > div > div > ul > li > a:hover {
+        color: var(--secondary-color);
+      }
+}
+
+#sampleData {
+    height: auto;
+    width: 100%;
+}
+#sampleData iframe{
+    height: 600px;
+    width: 100%;
+}
+
+@media screen and (max-width:576px){
+    
+    .IMG-COMPARISON1{
+        display: none!important;
+    }
+    .IMG-COMPARISON3{
+        display: none!important;
+    }
+    .IMG-COMPARISON2{
+        display: block!important;
+    }
+}
+
+@media screen and (max-width:576px){
+    #red7 a{
+        margin-top:1rem;
+    }
+    
+   
+    #geoinformatika-kartografija .container .row .col-md-6 .container-content{
+        margin-top: 2rem;
+    }
+    #geoinformatika-kartografija .container .row .col-md-6 .container-content a{
+        margin-bottom:2rem;
+    }
+    #sampleData .container .row .col-sm-12 iframe{
+        margin-top:1.5rem;
+        height: 300px;
+    }
+    #main-footer .container .card-managing .cards .col p, #main-footer .container .card-managing .cards .col ul{
+        text-align: center;
+        padding-left: 0!important;
+    }
+    #partneri .row .container .logo-carousel .slide img{
+        width: 250px;
+
+    }
+    #partneri .row .container .logo-carousel .slide {
+        display: flex!important;
+        justify-content: center!important;
+
+    }
+    #red7 a{
+        margin-bottom:2rem!important;
+    }
+    
+    
+}
+
+@media screen and (max-width:768px){
+    #katastarske-usluge .container #gallery-GE .container .row .col-md-12 .row  {
+        width: 500px;
+        
+    }
+
+    .articles__list{
+        display:flex;
+        flex-direction: column!important;
+    }
+
+    .leica-1{
+        display:none;
+    }
+    .leica-2{
+        display:block!important;
+    }
+
+    .menu-wrap .toggler {
+        
+        width: 60px;
+        height: 59.27px;
+        
+      }
+      
+      .menu-wrap .hamburger {
+        
+        width: 60px;
+        height: 54.83px;
+        
+      }
+    #main-nav .container {
+        margin: 0!important;
+    }
+    
+}
+
+@media screen and (min-width:576px){
+    #main-footer .container .card-managing .cards:first-child .col:last-child p{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width:1200px){
+    #pix4d iframe {
+        width: 900px;
+    }
+}
+@media screen and (max-width:992px){
+    #pix4d iframe {
+        width: 700px;
+    }
+}
+@media screen and (max-width:767px){
+    #pix4d iframe {
+        width: 500px;
+        height: 400px;
+    }
+    
+}
+@media screen and (max-width:576px){
+    #pix4d iframe {
+        width: 350px;
+        height: 400px;
+    }
+    #cards_landscape_wrap-2 .card-flyer .image-box img{
+        
+        width: 250px;
+        height: 250px;
+      }
+    #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+        height: 100%;
+    }
+    #cards_landscape_wrap-2 .card-flyer{
+        margin: 0!important;
+    }
+}
+
+#gallery-GE .container .row .col-md-12 .row a:hover{
+    opacity: .4;
+    transition: all .3s ease-in-out;
+}
+#gallery-PE .container .row .col-md-12 .row a:hover{
+    opacity: .4;
+    transition: all .3s ease-in-out;
+}
+#gallery-upis .container .row .col-md-12 .row a:hover{
+    opacity: .4;
+    transition: all .3s ease-in-out;
+}
+
+#gallery-GSN .container .row .col-md-12 .row a:hover{
+    opacity: .4;
+    transition: all .3s ease-in-out;
+}
+#gallery-SKI .container .row .col-md-12 .row a:hover{
+    opacity: .4;
+    transition: all .3s ease-in-out;
+}
+#gallery-UNC .container .row .col-md-12 .row a:hover{
+    opacity: .4;
+    transition: all .3s ease-in-out;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+  }
+  
+.logo-carousel {
+overflow: inherit;
+border-top: 1px solid var(--primary-color);
+border-bottom: 1px solid var(--primary-color);
+}
+
+@media screen and (max-width: 576px) {
+    .showcase-content1 span h1{
+        font-size:2.5rem;
+    }
+    .showcase-content1 span h2{
+        font-size:1.5rem;
+    }
+    .showcase-content1 .usluge a{
+        font-size:large;
+        margin: .1rem 0;
+    }
+    .showcase-content1 .usluge{
+    position:absolute; bottom: .5rem !important;
+    display: flex;
+    flex-direction: column!important;
+    }
+    #showcase1 .showcase-container1 {
+        height: 600px;
+    }
+    #showcase1 video {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #showcase1 .showcase-container1 {
+        height: 600px;
+    }
+    #showcase1 video {
+        height: 600px;
+    }
+
+    .showcase-content1 span h1{
+        font-size:3rem;
+    }
+    .showcase-content1 span h2{
+        font-size:2rem;
+    }
+    .showcase-content1 .usluge a{
+        font-size:large;
+        margin: .1rem 0;
+    }
+    .showcase-content1 .usluge{
+    position:absolute; bottom: .5rem !important;
+    }
+}
+
+.IMG-COMPARISON2 {
+    display: none;
+}
+.IMG-COMPARISON3 {
+    display:none;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .IMG-COMPARISON1 {
+        display: none!important;
+    }
+    .IMG-COMPARISON2 {
+        display: none!important;
+    }
+    .IMG-COMPARISON3 {
+        display: block!important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    #whyUs .container .row{
+        display: flex;
+        flex-direction: column;
+        padding:0.5rem;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+    }
+    #whyUs .row img {
+        width: 140px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    #showcase1 .showcase-container1 {
+        height: 700px;
+    }
+    #showcase1 video {
+        height: 700px;
+    }
+    .showcase-content1 span h1{
+        font-size:4rem;
+    }
+    .showcase-content1 span h2{
+        font-size:3rem;
+    }
+    .showcase-content1 .usluge a{
+        font-size:large;
+        margin: .1rem 0;
+    }
+    .showcase-content1 .usluge{
+    position:absolute; bottom: .5rem !important;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1524px) {
+   
+    .norway-img2{
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #showcase1 .showcase-container1 {
+        height: 800px;
+    }
+    #showcase1 video {
+        height: 800px;
+    }
+    .showcase-content1 .usluge a{
+        
+        margin: .1rem 0;
+    }
+    .norway-img2{
+        display: none;
+    }
+
+    .showcase-content1 .usluge{
+    position:absolute; bottom: .5rem !important;
+    }
+    #whyUs .container .row{
+        display: flex;
+        flex-direction: column;
+        padding:0.5rem;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+    }
+    #whyUs .row img {
+        width: 140px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #showcase1 .showcase-container1 {
+        height: 900px;
+    }
+    #showcase1 video {
+        height: 900px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .showcase-content1 .usluge{
+        display: flex!important;
+        flex-direction: row!important;
+    }
+}
+
+@media screen and (min-width: 2160px) {
+    #showcase1 .showcase-container1 {
+        height: 1300px;
+    }
+    #showcase1 video {
+        height: 1300px;
+    }
+}
+
+

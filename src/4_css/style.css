@@ -46,10 +46,11 @@ html, body {
 }
 
 :root{
-    --primary-color:rgba(221, 175, 9, 0.815);
-    --primary-color-alpha:#dab324c2;
+    --primary-color:#0981D1;;
+    --primary-color-alpha:#0981D1;
+    --marine-blue-color:#0981D1;
     --secondary-color:rgb(172, 46, 70);
-    --overlay-color:rgba(218, 179, 36, 0.76);
+    --overlay-color:#0981D1;;
     --light-color:#f3f3f3;
     --white-color:#ffffff;
     --dark-color:#333;
@@ -57,7 +58,9 @@ html, body {
     --max-width: 1100px;
     --dark-overlay:rgba(0,0,0,0.7)
 }
-
+.border-blue{
+    border-bottom:2px solid var(--marine-blue-color)!important;
+}
 .txt-primary-color{
     color: var(--primary-color);
 }
@@ -204,7 +207,7 @@ body::-webkit-scrollbar{
     padding-left: 0!important;
     top:1.9rem;
     left:0;
-    
+    padding-right: 0!important;
     width: 270px;
     height: auto;
     background: var(--white-color);
@@ -225,7 +228,7 @@ body::-webkit-scrollbar{
 
 #main-nav .container ul li:hover ul li:hover{
     display: inline-block;
-    background:rgba(221, 175, 9, 0.615);
+    background:var(--marine-blue-color);
     
     width:100%;
     transition: all 0.2s ease-in-out;
@@ -585,6 +588,28 @@ body::-webkit-scrollbar{
     
 }
 
+#featured-articles .container ul li .snippet .snippet__title a {
+    
+    background-color: var(--marine-blue-color)
+}
+
+#featured-articles .container ul li .snippet .snippet__meta span{
+    
+    color: var(--marine-blue-color)!important;
+}
+
+#featured-articles .container ul li .snippet .target1 a{
+    
+    background-color: var(--marine-blue-color)!important;
+}
+
+#featured-articles .container ul li .snippet{
+    border-top: 2px solid var(--marine-blue-color)!important;
+    
+    border-bottom: 2px solid var(--marine-blue-color)!important;
+}
+
+
 #main-footer .container .cards .col h4{
     font-size: 1.3rem;
     padding-bottom: 0.2rem;
@@ -597,6 +622,18 @@ body::-webkit-scrollbar{
     #main-footer .container .cards .col h4{
         text-align: center;
     }
+
+
+    #featured-articles .container ul{
+        flex-direction: column;
+    }
+    .snippet img{
+        height:fit-content;
+    }
+   
+
+  
+    
 }
 
 #main-footer .container .cards .col{
@@ -1993,7 +2030,7 @@ border-bottom: 1px solid var(--primary-color);
 
 
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1524px) {
    
     .norway-img2{
         display: none;
