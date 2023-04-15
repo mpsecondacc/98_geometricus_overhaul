@@ -33,4 +33,6 @@ On 16th March 2023, Sveuciliste Sjever (University of North), Varazdin, hosted 
 
 To be able to purchase the above equipment Geometricus applied for funding under Norway Grants’ Business Development and Innovation Croatia Programme, and was support with the Grant in the amount of EUR 190.000.
 
-It is expected that the project alone will lead to 77% increase in operational revenues and 10% increase of operational profit of the company, and 6 new employments by the year 2026.
+It is expected that the project alone will lead to 77% increase in operational revenues and 10% increase of operational profit of the company, and 6 new employments by the year 2026.\
+\
+T﻿ext author: Egli Ilic
