@@ -1,5 +1,5 @@
 ---
-title: Obavijest o promjeni datuma terenskih očevida za Kutinu istok
+title: Promjena datuma - Kutina Istok
 description: Novi datumi terenskog očevida
 author: info@geometricus.hr
 date: 2023-04-18T07:21:26.947Z
