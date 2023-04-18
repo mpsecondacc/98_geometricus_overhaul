@@ -5,7 +5,6 @@ author: info@geometricus.hr
 date: 2023-03-11
 tags:
   - post
-  - featured
 image: /1_content/di2.webp
 imageAlt: DRŽAVNA IZMJERA KO KUTINA - ISTOK
 ---
