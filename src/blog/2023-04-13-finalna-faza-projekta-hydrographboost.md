@@ -8,7 +8,7 @@ tags:
   - post
   - featured
   - blue
-image: /1_content/1.webp
+image: /1_content/2.webp
 imageAlt: HydroGraphBoost - Geometricus, Požega
 ---
 GEOMETRICUS, a dynamic and innovative  geodetic company from Eastern Croatia, offering wide range of geodetic services seems to be apt for a new (quantum) business leap!
