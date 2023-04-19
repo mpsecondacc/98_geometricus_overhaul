@@ -1,6 +1,6 @@
 ---
-title: Promjena datuma - Kutina Istok
-description: Novi datumi terenskog očevida
+title: "NOVO Promjena datuma - Kutina Istok "
+description: Novi datumi terenskog očevida, 18.04 prebačen na 19.04
 author: info@geometricus.hr
 date: 2023-04-18T07:21:26.947Z
 tags:
