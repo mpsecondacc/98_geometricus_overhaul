@@ -1,16 +1,16 @@
 ---
-title: PROMJENA TERMINA za 02.05 i 03.05
-description: Novi datum terenskog očevida
+title: KUTINA ISTOK - OBAVIJEST 15.5 - 19.5
+description: Obavijest o državnoj izmjeri za idući tjedan
 author: info@geometricus.hr
-date: 2023-04-24T05:26:44.337Z
+date: 2023-05-10T06:05:19.582Z
 tags:
   - post
   - featured
 image: /1_content/kutina_2.jpg
 imageAlt: Državna izmjera - Kutina Istok
 ---
-P﻿oštovani nositelji prava na katastarskim česticama - **za dane 02.05 i 03.05 najavljujemo promjenu termina terenskog očevida - zbog nepovoljnih vremenskih uvjeta**  \
+P﻿oštovani nositelji prava, obavještavamo Vas da **sljedeći tjedan - od 15.5 do 19.5.**, za koji se nadamo suhom vremenu bez kiše **nastavljamo sa obilježavanjem čestica javnopravnih tijela**, paralelno ćemo **održati i ponovljeni međni očevid za stranke koje se do sada nisu odazvale** o čemu će iste biti i drugi puta pozvani preporučenom poštom.\
 \
-O﻿ naknadnom terminu očevida bit ćete obaviješteni putem web forme.\
+M﻿olimo vas da i dalje pratite informacije na našim stranicama gdje ćemo objaviti detaljne upute.\
 \
 S﻿ poštovanjem, Geometricus.
