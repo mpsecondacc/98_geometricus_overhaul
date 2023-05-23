@@ -5,7 +5,7 @@ author: info@geometricus.hr
 date: 2023-03-10T23:00:00.000Z
 tags:
   - post
-image: /1_content/di1.webp
+image: /1_content/pregledna_hercegovac_g13-1.webp
 imageAlt: Državna izmjera KO Hercegovac
 ---
 Označavanje lomnih točaka granica zemljišta čestica vrši se međnim oznakama (ako one na terenu već ne postoje). Označavanje je potrebno izvršiti u prisutnosti susjeda (zajednički) i to sa svake lomne točke zemljišta. Svaka međa označena zajednički bit će izmjerena, evidentirana bez obzira na dosadašnje podatke u katastru zemljišta.\
