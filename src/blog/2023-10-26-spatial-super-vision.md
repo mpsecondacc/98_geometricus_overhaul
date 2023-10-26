@@ -6,7 +6,7 @@ date: 2023-10-26T06:57:11.304Z
 tags:
   - post
   - featured
-image: /1_content/business-development-and-innovation-croatia.png
+image: /1_content/333.png
 imageAlt: Innovation Norway
 ---
 
