@@ -5,7 +5,6 @@ author: info@geometricus.hr
 date: 2023-05-10T06:05:19.582Z
 tags:
   - post
-  - featured
 image: /1_content/kutina_2.jpg
 imageAlt: Državna izmjera - Kutina Istok
 ---
