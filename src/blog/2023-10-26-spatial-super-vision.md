@@ -6,9 +6,13 @@ date: 2023-10-26T06:57:11.304Z
 tags:
   - post
   - featured
-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fpora.com.hr%2F2020%2F08%2F18%2Fotvoren-je-natjecaj-business-development-and-innovation-croatia%2F&psig=AOvVaw0NOhUo4oxGt4QBJs5llrox&ust=1698390040807000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjI3YSSk4IDFQAAAAAdAAAAABAE
+image: /1_content/business-development-and-innovation-croatia.png
 imageAlt: Innovation Norway
 ---
+
+
+
+
 P﻿roject title: **SpatialSuperVision**\
 \
 About project
@@ -21,11 +25,7 @@ Case number: 2023/363863
 
 Grant type: Croatia innovation Norway grants
 
-
-
 Status: In implementation
-
-
 
 Total value: 1.414.956 EUR
 
@@ -61,4 +61,10 @@ Announcement:
 
 The first set of equipment has been delivered. The MMS and GPR from Leica, as well as multi-spectral combination of instruments from Ricopter has been procured.
 
-![](/1_content/capture.png)
+![IDS GeoRadar StreamUP](/1_content/capture2-small-.png "IDS GeoRadar StreamUP")
+
+
+
+
+
+![Leica TRK 700 Evo](/1_content/capture-small-.png "Leica TRK 700 Evo")
