@@ -59,7 +59,7 @@ h. The set of processing computers 
 
 Announcement:
 
-The first set of equipment has been delivered. The MMS and GPR from Leica, as well as multi-spectral combination of instruments from Ricopter has been procured.
+The first set of equipment has been delivered. The MMS and GPR from Leica, as well as multi-spectral combination of instruments from Ricopter have been procured.
 
 ![IDS GeoRadar StreamUP](/1_content/capture2-small-.png "IDS GeoRadar StreamUP")
 
@@ -68,3 +68,29 @@ The first set of equipment has been delivered. The MMS and GPR from Leica, as we
 
 
 ![Leica TRK 700 Evo](/1_content/capture-small-.png "Leica TRK 700 Evo")
+
+**T﻿raining is in progress.**
+
+**Project news:**
+
+The SpatialSuperVision kick-off meeting and first project conference was held in the business offices of GEOMETRICUS d.o.o.
+
+Project promoter's CEO, mr. Stjepan Keleminec presented the project, the financial elements, aims of the project and expected results. He expressed his gratitude to the Innovation Norway and stressed out that the project is financed from the Norwegian Financial Mechanism 2014-2021, in the frame of the Programme "Business Development and Innovation Croatia", as already a second project of GEOMETRICUS d.o.o. from this Programme. 
+
+![](/1_content/444-small-.png)
+
+
+
+
+
+![](/1_content/555-small-.png)
+
+
+
+
+
+![](/1_content/666-small-.png)
+
+
+
+***Supported by a grant from Norway through Norwegian Financial Mechanism 2014-2021, in the frame of the Programme "Business Development and Innovation Croatia"***
