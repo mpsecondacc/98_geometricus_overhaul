@@ -5,7 +5,6 @@ author: info@geomtricus.hr
 date: 2023-06-05T17:49:51.056Z
 tags:
   - post
-  - featured
 image: /1_content/dgu-logo-2021.png
 imageAlt: "-"
 ---
